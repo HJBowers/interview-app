@@ -8,6 +8,7 @@ Challenge Rating
 - Can create a relational database
 - Can perform basic operations on a relational database
 - Can interact with a relational database from JavaScript
+- Strong interest in modular programming
 - Are familiar with ORM (Object-Relational Mapping)
 - Are interested in program interface design
 - Description
