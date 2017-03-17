@@ -2,7 +2,7 @@ Challenge Rating
 
 ### This goal will likely be within your ZPD if you…
 
-- Can build basic web sites with HTML & CSS
+- Can build web sites with HTML & CSS
 - Can add behavior to a web site with JavaScript
 - Can build apps using Node.js and npm
 - Can create a relational database
@@ -10,10 +10,9 @@ Challenge Rating
 - Can interact with a relational database from JavaScript
 - Are familiar with ORM (Object-Relational Mapping)
 - Are interested in program interface design
-- Description
-Are interested in creating an education app
+- Are interested in creating an education app
 - Are interested in user experience design
-Are interested in creating a multiplayer app
+- Are interested in creating a multiplayer app
 
 Build an app that will tests learner's knowledge of programming by creating an interactive mock interview between two players.
 
