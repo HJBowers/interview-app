@@ -1,16 +1,15 @@
 ## Challenge Rating
 
 ### This goal will likely be within your ZPD if you…
+- Strong interest in modular programming
 - Can build basic web sites with HTML & CSS
 - Can add behavior to a web site with JavaScript
 - Can build apps using Node.js and npm
 - Can create a relational database
 - Can perform basic operations on a relational database
 - Can interact with a relational database from JavaScript
-- Strong interest in modular programming
 - Are familiar with ORM (Object-Relational Mapping)
 - Are interested in program interface design
-- Description
 - Are interested in creating an education app
 - Are interested in user experience design
 - Are interested in creating a multiplayer app
