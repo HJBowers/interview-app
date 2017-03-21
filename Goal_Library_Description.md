@@ -26,16 +26,17 @@ Most of software is a model of some real-world system. It follows that being abl
 
 As you build this project, you’ll likely encounter questions such as:
 
-Is this a property or a method?
-If a method, is it a method of the instance or the class?
-Where does this feature belong? If in a class, which class?
-What are the expected inputs and outputs?
-What is an unexpected input?
-How should I test this?
-How can the program handle failure gracefully?
-When and how should model data be retrieved from and persisted to the data store?
+  Is this a property or a method?
+  If a method, is it a method of the instance or the class?
+  Where does this feature belong? If in a class, which class?
+  What are the expected inputs and outputs?
+  What is an unexpected input?
+  How should I test this?
+  How can the program handle failure gracefully?
+  When and how should model data be retrieved from and persisted to the data store?
 
 ## Specifications
+- 
 
 - Expose the following commands (and more, if you need) using the scripts property of your package.json.
   $ npm run test: run all tests.
@@ -47,10 +48,10 @@ When and how should model data be retrieved from and persisted to the data store
   $ npm run db:reset: drop, create, and migrate the database.
   $ npm run db:console: open a console session for running queries against the database.
 
-- Create models with interfaces to satisfy the following interviewee and interviewer stories:
+- Create modes with interfaces to satisfy the following interviewee and interviewer stories:
 
   Interviewee:
-  - [ ] 
+  - [ ] Will be presented with a technical question that they will verbally answer
   - [ ] 
   - [ ] 
 
