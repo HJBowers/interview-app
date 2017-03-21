@@ -29,6 +29,7 @@ This app will have multiple phases to build out different interview modes. Pleas
 
 
 ### Phase 2: Speaking Mode
+- [ ] Create a new questions table in database for Speaking questions (Mimics Speaking Questions)
 - [ ] Interviewer will ask questions, then mark "correct" or "incorrect" or "pass"
 - [ ] Questions in speaking mode will be verbally answered by candidate
 - [ ] Questions will be evaluated by a true or false score
