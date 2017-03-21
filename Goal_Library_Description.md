@@ -1,7 +1,6 @@
 ## Challenge Rating
 
 ### This goal will likely be within your ZPD if you…
-
 - Can build basic web sites with HTML & CSS
 - Can add behavior to a web site with JavaScript
 - Can build apps using Node.js and npm
@@ -14,7 +13,7 @@
 - Description
 - Are interested in creating an education app
 - Are interested in user experience design
-Are interested in creating a multiplayer app
+- Are interested in creating a multiplayer app
 
 ## Description
 Build an app that will tests learner's knowledge of programming by creating an interactive mock interview between two players.
@@ -25,8 +24,6 @@ When complete, you’ll have an API for working with multiple interview modes wi
 
 ## Context
 Most of software is a model of some real-world system. It follows that being able to develop good models is a crucial skill.
-
-In this case, the model is both one that should be familiar to anyone who has ever ridden public transit in a city. You also have very clear specifications to follow, so most of the guesswork has been taken out of the process.
 
 As you build this project, you’ll likely encounter questions such as:
 
@@ -40,23 +37,31 @@ How can the program handle failure gracefully?
 When and how should model data be retrieved from and persisted to the data store?
 
 ## Specifications
-Commands
-Expose the following commands (and more, if you need) using the scripts property of your package.json.
- $ npm run test: run all tests.
- $ npm run repl: open a REPL session with all your library code loaded.
- $ npm run db:create: create the database for the current NODE_ENV.
- $ npm run db:migrate: run all schema migrations for the database.
- $ npm run db:seed: insert seed (sample) data into the database.
- $ npm run db:drop: delete the database for the current NODE_ENV.
- $ npm run db:reset: drop, create, and migrate the database.
- $ npm run db:console: open a console session for running queries against the database.
 
+- Expose the following commands (and more, if you need) using the scripts property of your package.json.
+  $ npm run test: run all tests.
+  $ npm run repl: open a REPL session with all your library code loaded.
+  $ npm run db:create: create the database for the current NODE_ENV.
+  $ npm run db:migrate: run all schema migrations for the database.
+  $ npm run db:seed: insert seed (sample) data into the database.
+  $ npm run db:drop: delete the database for the current NODE_ENV.
+  $ npm run db:reset: drop, create, and migrate the database.
+  $ npm run db:console: open a console session for running queries against the database.
 
-Create models with interfaces to satisfy the following interviewee and interviewer stories:
+- Create models with interfaces to satisfy the following interviewee and interviewer stories:
 
-Interviewee:
+  Interviewee:
+  - [ ] 
+  - [ ] 
+  - [ ] 
 
-Interviewer:
+  Interviewer:
+  - [ ] 
+  - [ ] 
+  - [ ] 
+ 
+
+(Examples pulled from goal 126)
 - [ ] As a user of the Train model, I can…
 - [ ] Get the number of a particular train.
 - [ ] Get the capacity for passengers of a particular train.
@@ -110,15 +115,8 @@ Interviewer:
 - [ ] As a user of the Passenger model, I receive appropriate and descriptive errors.
 - [ ] As a user of the Station model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
 
-Required
+## Required
  The artifact produced is properly licensed, preferably with the MIT license.
-Stretch
-
-Pick a different database from the one you used (some ideas: CouchDB, Mongo, Neo4J, MariaDB) and write an alternate implementation.
-
- Equivalent commands exist for the alternate database.
- A database module exists with configuration options to specify which database to use.
- All tests pass when using the alternate database.
 
 ## Quality Rubric
 - Code uses a linter, which can be invoked with a command (e.g. npm run lint). [50 points]
