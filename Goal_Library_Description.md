@@ -22,98 +22,38 @@ Build the data model and database that will include multiple interview modes. It
 When complete, you’ll have an API for working with multiple interview modes with database persistence.
 
 ## Context
-Most of software is a model of some real-world system. It follows that being able to develop good models is a crucial skill.
+Practicing mock interviews helps the Candidate develop skills for answering technical question during the interview process while lowering testing anxiety. It also helps the Interviewer gain perspective on desired qualities in candidates.
 
-As you build this project, you’ll likely encounter questions such as:
-
-  Is this a property or a method?
-  If a method, is it a method of the instance or the class?
-  Where does this feature belong? If in a class, which class?
-  What are the expected inputs and outputs?
-  What is an unexpected input?
-  How should I test this?
-  How can the program handle failure gracefully?
-  When and how should model data be retrieved from and persisted to the data store?
 
 ## Specifications
-- 
+Create an app that has two player roles; the candidate and the interviewer. Eventually, there will be multiple modes. These modes will effect the questions required, the method the answers are submitted, the time limit, and the interaction of both players. Below are user stories that should apply to every potential mode.
 
-- Expose the following commands (and more, if you need) using the scripts property of your package.json.
-  $ npm run test: run all tests.
-  $ npm run repl: open a REPL session with all your library code loaded.
-  $ npm run db:create: create the database for the current NODE_ENV.
-  $ npm run db:migrate: run all schema migrations for the database.
-  $ npm run db:seed: insert seed (sample) data into the database.
-  $ npm run db:drop: delete the database for the current NODE_ENV.
-  $ npm run db:reset: drop, create, and migrate the database.
-  $ npm run db:console: open a console session for running queries against the database.
+- [ ] Github login authentication
+- [ ] After logging in, user's stats will appear in the header (score/experience, level, number of questions answered)
+- [ ] Start page where user can select:
+ - Game mode
+ - Player role
+ - Difficulty
+ - Topic
 
-- Create modes with interfaces to satisfy the following interviewee and interviewer stories:
 
-  Interviewee:
-  - [ ] Will be presented with a technical question that they will verbally answer
-  - [ ] 
-  - [ ] 
+ - [ ] For every mode, the following should be true for candidates and interviewers:
 
-  Interviewer:
-  - [ ] 
-  - [ ] 
-  - [ ] 
- 
+##### Candidate:
+  - [ ] Will be presented with one technical question at a time
+  - [ ] The game mode will determine the format of the question
+  - [ ] The game mode will determine the format of how the answer is submitted
+  - [ ] Game mode, difficulty level, score, and topic are all shown (statically) in the header
+  - [ ] Score increases when candidate answers correctly
+  - [ ] Interviewer determines if answers are correct or incorrect. Candidate can not move to the next question until interviewer deems an answer is correct
 
-(Examples pulled from goal 126)
-- [ ] As a user of the Train model, I can…
-- [ ] Get the number of a particular train.
-- [ ] Get the capacity for passengers of a particular train.
-- [ ] Get the passengers of a particular train.
-- [ ] Determine whether a particular train is full (at capacity) or not.
-- [ ] Determine the current station of a particular train.
-- [ ] Determine the next station of a particular train.
-- [ ] Determine which train is arriving next at a particular station.
-- [ ] Offboard passengers whose destination is a train’s current station.
-- [ ] onboard passengers of a train at the current station.
-- [ ] find a train by its number.
-- [ ] create a new train.
-- [ ] save new trains to the database.
-- [ ] update existing trains in the database.
-- [ ] delete a train from the database.
-- [ ] As a user of the Train model, I receive appropriate and descriptive errors.
-- [ ] As a user of the Station model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
-- [ ] As a user of the Station model, I can…
-- [ ] get the ID of a particular station.
-- [ ] get the location of a particular station.
-- [ ] get the passengers waiting for a train at a particular station.
-- [ ] get the passengers who have tickets at a particular station.
-- [ ] get the previous station on the line for a particular station.
-- [ ] get the next station on the line for a particular station.
-- [ ] determine which is the next train arriving at a particular station.
-- [ ] find a station by its ID.
-- [ ] find a station by its location.
-- [ ] create a new station.
-- [ ] save new stations to the database.
-- [ ] update existing stations in the database.
-- [ ] delete a station from the database.
-- [ ] As a user of the Station model, I receive appropriate and descriptive errors.
-- [ ] As a user of the Station model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
-- [ ] As a user of the Passenger model, I can…
-- [ ] get the ID of a particular passenger.
-- [ ] get the name of a particular passenger.
-- [ ] get a particular passenger’s ticket.
-- [ ] set the current station of a particular passenger.
-- [ ] buy a ticket for a particular passenger from their current station to another specified station.
-- [ ] use a ticket for a particular passenger.
-- [ ] determine the current train for a particular passenger.
-- [ ] determine the current station for a particular passenger.
-- [ ] find a passenger by their ID.
-- [ ] find a passenger by their name.
-- [ ] find all passengers at a station.
-- [ ] find all passengers on a train.
-- [ ] create a new passenger.
-- [ ] save new passengers to the database.
-- [ ] update existing passengers in the database.
-- [ ] delete a passenger from the database.
-- [ ] As a user of the Passenger model, I receive appropriate and descriptive errors.
-- [ ] As a user of the Station model, I can run unit tests that exercise the specs for every public property, instance method, and class method.
+##### Interviewer:
+  - [ ] Can see answer to question (or multiple answers, depending on the question)
+  - [ ] Space to take optional notes during the mock interview
+  - [ ] Has a list of prompts to if the candidate gets stuck
+  - [ ] Game mode, difficulty level, score, and topic are all shown (statically) in the header
+  - [ ] Interviewer determines if answers are correct or incorrect. Candidate can not move to the next question until interviewer deems an answer is correct
+
 
 ## Required
  The artifact produced is properly licensed, preferably with the MIT license.
